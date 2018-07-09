@@ -1,0 +1,16 @@
+Package: yaic
+Type: Package
+Title: Yet Another Information Criterion
+Version: 0.1.0
+Author: Niels Richard Hansen
+Maintainer: Niels Richard Hansen <Niels.R.Hansen@math.ku.dk>
+Description: This package implements model selection and model 
+  averaging in a regression framework based on an information criterion
+  that accounts for the model selection procedure. 
+Depends: R (>= 3.5.0)
+Imports:
+  leaps,
+  glmnet
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
